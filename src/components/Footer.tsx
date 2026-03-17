@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Clock, Mail } from "lucide-react";
+import { MapPin, Phone, Clock, Mail, MessageCircle } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-foreground text-background">
@@ -32,7 +32,12 @@ const Footer = () => (
           <h4 className="font-display text-sm font-semibold uppercase tracking-wider mb-4 opacity-50">Contact</h4>
           <div className="flex flex-col gap-3 text-sm font-body opacity-70">
             <span className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 shrink-0" /> Karu, Abuja, Nigeria</span>
-            <span className="flex items-center gap-2"><Phone className="h-4 w-4 shrink-0" /> +234 800 000 0000</span>
+            <a href="https://wa.me/2349038535214" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-100 transition-opacity">
+              <MessageCircle className="h-4 w-4 shrink-0" /> 0903 853 5214 (WhatsApp)
+            </a>
+            <a href="tel:+2349024403837" className="flex items-center gap-2 hover:opacity-100 transition-opacity">
+              <Phone className="h-4 w-4 shrink-0" /> 0902 440 3837 (Call/Enquiry)
+            </a>
             <span className="flex items-center gap-2"><Mail className="h-4 w-4 shrink-0" /> info@rubismile.com</span>
             <span className="flex items-start gap-2"><Clock className="h-4 w-4 mt-0.5 shrink-0" /> Mon – Sat: 9AM – 5:30PM</span>
           </div>
