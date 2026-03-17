@@ -24,7 +24,7 @@ const Contact = () => (
             <div className="space-y-6">
               {[
                 { icon: MapPin, label: "Visit Us", value: "Karu, Abuja, Nigeria (Near INEC Office)" },
-                { icon: Phone, label: "Call Us", value: "+234 800 000 0000" },
+                { icon: Phone, label: "Call / Enquiry", value: "0902 440 3837" },
                 { icon: Mail, label: "Email Us", value: "info@rubismile.com" },
                 { icon: Clock, label: "Working Hours", value: "Mon – Sat: 9:00 AM – 5:30 PM | Sun: Closed" },
               ].map((item) => (
@@ -41,7 +41,7 @@ const Contact = () => (
             </div>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="https://wa.me/2348000000000"
+                href="https://wa.me/2349038535214"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-inner bg-primary px-6 py-3 font-display text-sm font-bold text-primary-foreground transition-all duration-200 hover:-translate-y-px active:scale-95"
@@ -49,7 +49,7 @@ const Contact = () => (
                 WhatsApp Us <ArrowRight className="h-4 w-4" />
               </a>
               <a
-                href="tel:+2348000000000"
+                href="tel:+2349024403837"
                 className="flex items-center gap-2 rounded-inner border border-border px-6 py-3 font-display text-sm font-bold text-foreground transition-all duration-200 hover:bg-muted"
               >
                 <Phone className="h-4 w-4" /> Call Now

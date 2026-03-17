@@ -46,7 +46,7 @@ const Header = () => {
         {/* Desktop: minimal nav + CTA */}
         <div className="hidden md:flex items-center gap-6">
           <a
-            href="tel:+2348000000000"
+            href="tel:+2349024403837"
             className="flex items-center gap-2 rounded-inner bg-primary px-5 py-2.5 font-display text-sm font-semibold text-primary-foreground shadow-subtle transition-all duration-200 hover:-translate-y-px hover:shadow-hover-lift active:scale-95"
           >
             <Phone className="h-4 w-4" />
@@ -99,7 +99,7 @@ const Header = () => {
               {/* Bottom CTA */}
               <div className="p-6 border-t border-primary-foreground/10 space-y-3">
                 <a
-                  href="https://wa.me/2348000000000"
+                  href="https://wa.me/2349038535214"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 rounded-inner bg-accent px-6 py-3.5 font-display text-sm font-bold text-accent-foreground transition-all duration-200 hover:-translate-y-px active:scale-95 w-full"
@@ -108,7 +108,7 @@ const Header = () => {
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <a
-                  href="tel:+2348000000000"
+                  href="tel:+2349024403837"
                   className="flex items-center justify-center gap-2 rounded-inner border border-primary-foreground/30 px-6 py-3.5 font-display text-sm font-bold text-primary-foreground transition-all duration-200 hover:bg-primary-foreground/10 w-full"
                 >
                   <Phone className="h-4 w-4" />
