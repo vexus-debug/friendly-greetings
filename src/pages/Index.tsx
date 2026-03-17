@@ -19,6 +19,7 @@ import dentalChair from "@/assets/gallery/dental-chair.webp";
 import operatory from "@/assets/gallery/operatory.jpg";
 import treatment1 from "@/assets/gallery/treatment-1.webp";
 import treatment2 from "@/assets/gallery/treatment-2.webp";
+import personalizedCare from "@/assets/gallery/personalized-care.jpg";
 import treatment3 from "@/assets/gallery/treatment-3.jpg";
 import clinicBanner from "@/assets/gallery/clinic-banner.webp";
 import entranceSign from "@/assets/gallery/entrance-sign-new.jpg";
