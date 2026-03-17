@@ -119,7 +119,7 @@ const Index = () => (
       <div className="container mx-auto px-6">
         <SectionReveal>
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="font-display text-sm font-semibold text-primary uppercase tracking-wider">Our Services</span>
+            <span className="font-display text-sm font-semibold text-accent uppercase tracking-wider">Our Services</span>
             <h2 className="font-display text-4xl font-extrabold text-foreground mt-3">
               Comprehensive dental care
             </h2>
